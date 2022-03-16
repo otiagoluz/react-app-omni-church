@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
+import { Title } from "./Expenses";
 
 export default function Invoices() {
   return (
-    <main style={{ padding: "1rem 0" }}>
-      <h2>Invoices</h2>
+    <>
+      <Title>Invoices</Title>
       <Link to='/'> Return </Link>
-    </main>
+    </>
+
   );
 }

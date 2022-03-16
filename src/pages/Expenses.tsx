@@ -7,15 +7,17 @@ const Container = styled.div`
   background: #23283d;
 `;
 
-const Title = styled.h2`
+export const Title = styled.h2`
   color: white;
 `;
 
 export default function Expenses() {
   return (
-    <Container>
+
+    <>
       <Title>Expenses</Title>
       <Link to='/'> Return </Link>
-    </Container>
+    </>
+
   );
 }
